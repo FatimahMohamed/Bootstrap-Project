@@ -18,6 +18,10 @@ body {
         color: #184f63;
     }
 
+    .sharp-corners, .sharp-corners * {
+        border-radius: 0;
+    }
+
     #portfolio {
         background-color: #dbdcde;
     }
@@ -32,5 +36,22 @@ body {
         background-position: 50% 70%;
         min-height: 500px;
         padding: 5% 7%;
+    }
 
+    #portfolio .card-title {
+        color: #1f7798;
+        font-size: 1.2rem;
+    }
+
+    #portfolio .btn-outline-secondary:hover {
+        background-color: #1f7798;
+    }
+
+    #portfolio .card-text {
+        min-height: 120px;
+    }
+
+    @media screen and (min-height: 1200px){
+        portfolio .card-text {
+            min-height: auto;
     }
